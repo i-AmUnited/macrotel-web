@@ -1,0 +1,37 @@
+@import url('https://fonts.cdnfonts.com/css/avenir');
+
+body {
+  /* margin: 0; */
+  font-family: 'Avenir', sans-serif;                                     
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #F1F1F1;
+}
+
+.pattern{
+  background-image: url('../src/Images/Pattern.jpg');
+  mix-blend-mode: multiply;
+  background-size: cover;
+  height: 150px;
+}
+
+.background {
+  background-image: url(../src/Images/zippy.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.bg-mesh {
+  background-image: url(../src/Images/Mesh.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.noor-bg {
+  background-image: url(../src/Images/noor.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
