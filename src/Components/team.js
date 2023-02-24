@@ -1,18 +1,21 @@
 import ProfileCard from "./TeamProfileCard";
-import Pic from "../Images/mbappe.jpeg";
-import Nurudeen from "../Images/Nurudeen Olokode.JPG"
-import Muhideen from "../Images/Muihdeen Ashiru.JPG"
-import Funke from "../Images/Adefunke Adekomaiya.JPG"
-import Hammed from "../Images/Hammed Adigun.JPG"
+import Nurudeen from "../Images/Nurudeen Olokode.png"
+import Muhideen from "../Images/Muihdeen Ashiru.png"
+import Funke from "../Images/Adefunke Adekomaiya.png"
+import Hammed from "../Images/Hammed Adigun.png"
+import Bode from "../Images/Orolu Olabode.png"
+
 
 const Team = () => {
+
   return (
     <div className="px-4 md:px-16">
       <p className="text-center mb-4">Meet The Team</p>
 
-      <div className="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-5 gap-5">
+      <div
+      className="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-5 gap-5">
         <ProfileCard
-          profile={Pic}
+          profile={Bode}
           firstName="Olabode"
           lastName="Orolu"
           role="CEO"

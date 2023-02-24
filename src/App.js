@@ -4,16 +4,18 @@ import LandingPage from './Pages/Landing/landingPage';
 import Connect from './Pages/connect'
 import AboutUs from './Pages/aboutUs'
 import Products from './Pages/products'
-import Navbar from './Components/navBar';
+// import Navbar from './Components/navBar';
 import Footer from './Components/footer';
 
 
+
+
 function App() {
+
   return (
     <div>
     
     <BrowserRouter>
-    <Navbar/>
       <Routes>
         <Route path="/" element={<LandingPage />}></Route>
         <Route path="/connect" element={<Connect />}></Route>

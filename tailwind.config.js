@@ -10,7 +10,7 @@ module.exports = {
         purple: '#8A4FFF',
       },
       backgroundImage: {
-        'purple-pattern': "url('./Images/rectangle.png')",
+        'purple-pattern': "url('./Images/rectangle.svg')",
       }
     },
   },
