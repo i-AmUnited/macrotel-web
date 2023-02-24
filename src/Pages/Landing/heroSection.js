@@ -11,7 +11,7 @@ const HeroSection = () => {
         transition={{type: "spring", duration:0.5, stiffness:120}}
       className="p-0 md:p-10 order-2 md:order1 my-5 space-y-3">
         <p className="w-full md:w-2/3 text-[24px] font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#8A4FFF] to-[#9747FF] text-center md:text-left">
-          Providing High Quality and Cost Effective Fintech solutions.
+          Providing High Quality and Cost Effective Fintech Solutions.
         </p>
         
         <p className="leading-7 text-center md:text-left">
