@@ -10,5 +10,4 @@ const ServiceCard = ({ServiceImage, ServiceName, ServiceDescription}) => {
         </div>
      );
 }
- 
 export default ServiceCard;

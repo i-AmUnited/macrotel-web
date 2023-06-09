@@ -25,24 +25,28 @@ const Team = () => {
           firstName="Muhideen"
           lastName="Ashiru"
           role="Operations Manager"
+          linkedinProfile="https://www.linkedin.com/in/muhideen-ashiru-bdg-067b3261/"
         />
         <ProfileCard
           profile={Hammed}
           firstName="Hammed"
           lastName="Adigun"
           role="System and Integration Officer"
+          linkedinProfile="https://www.linkedin.com/in/hammed-adigun-2a734571/"
         />
         <ProfileCard
           profile={Funke}
           firstName="Adekomaiya"
           lastName="Adefunke"
           role="Finance/Admin Manager"
+          linkedinProfile="https://www.linkedin.com/in/adefunke-adekomaiya-1263b33a/"
         />
         <ProfileCard
           profile={Nurudeen}
           firstName="Nurudeen"
           lastName="Olokode"
           role="Finance Manager"
+          linkedinProfile="https://www.linkedin.com/in/nurudeen-olokode-b-sc-aca-acsi-107ba448/"
         />
       </div>
     </div>

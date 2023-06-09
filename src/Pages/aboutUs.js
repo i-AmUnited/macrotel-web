@@ -5,8 +5,9 @@ import Features from "./Landing/features";
 import Navbar from '../Components/navBar';
 
 import pic1 from "../Images/one.jpg";
-import pic2 from "../Images/Taofeek.jpg";
+// import pic2 from "../Images/Taofeek.jpg";
 import pic3 from "../Images/Quad.jpg";
+import pic4 from "../Images/four.jpg";
 
 import { motion } from "framer-motion";
 
@@ -39,7 +40,7 @@ const AboutUs = () => {
           className="border h-80 w-96 object-cover rounded-md"
         />
         <img
-          src={pic2}
+          src={pic4}
           alt=""
           className="border h-80 w-96 object-cover rounded-md"
         />
@@ -48,6 +49,11 @@ const AboutUs = () => {
           alt=""
           className="border h-80 w-96 object-cover rounded-md"
         />
+        {/* <img
+          src={pic2}
+          alt=""
+          className="border h-80 w-96 object-cover rounded-md"
+        /> */}
       </motion.div>
       </div>
       <Features />
